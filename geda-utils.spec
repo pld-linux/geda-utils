@@ -8,7 +8,10 @@ Group:		Applications
 Source0:	ftp://ftp.geda.seul.org/pub/geda/devel/%{version}/%{name}-%{version}.tar.gz
 # Source0-md5:	f0b1a682c6796b418c48e3a843ab0fb2
 URL:		http://www.geda.seul.org/
-BuildRequires:	libgeda-devel
+BuildRequires:	glib2-devel >= 2.2.0
+BuildRequires:	libgeda-devel >= %{version}
+BuildRequires:	pkgconfig
+Requires:	libgeda >= %{version}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -37,3 +40,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc AUTHORS ChangeLog NEWS README
 %attr(755,root,root) %{_bindir}/*
+%{_datadir}/gEDA/system-gschlasrc
