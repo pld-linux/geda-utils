@@ -5,8 +5,6 @@ Version:	20010304
 Release:	1
 License:	GPL
 Group:		Applications
-Group(de):	Applikationen
-Group(pl):	Aplikacje
 Source0:	ftp://ftp.geda.seul.org/pub/geda/devel/utils-%{version}.tar.gz
 URL:		http://www.geda.seul.org/
 BuildRequires:	libgeda-devel
