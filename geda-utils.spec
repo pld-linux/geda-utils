@@ -1,12 +1,12 @@
 Summary:	Utilites for gEDA project
 Summary(pl):	Narzêdzia dla projektu gEDA
 Name:		geda-utils
-Version:	20030901
-Release:	1
+Version:	20040111
+Release:	0.1
 License:	GPL
 Group:		Applications
 Source0:	ftp://ftp.geda.seul.org/pub/geda/devel/%{version}/%{name}-%{version}.tar.gz
-# Source0-md5:	f0b1a682c6796b418c48e3a843ab0fb2
+# Source0-md5:	3fac8212be7f362db2dd4d6a8806d58f
 URL:		http://www.geda.seul.org/
 BuildRequires:	glib2-devel >= 2.2.0
 BuildRequires:	libgeda-devel >= %{version}
@@ -21,7 +21,7 @@ Several utilities for the gEDA project.
 Narzêdzia u¿ytkowe dla projektu gEDA.
 
 %prep
-%setup  -q 
+%setup -q
 
 %build
 %configure
@@ -31,13 +31,13 @@ Narzêdzia u¿ytkowe dla projektu gEDA.
 rm -rf $RPM_BUILD_ROOT
 
 %{__make} install \
-	DESTDIR=$RPM_BUILD_ROOT \
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc AUTHORS ChangeLog NEWS README
+%doc AUTHORS ChangeLog* NEWS README docs/README.*
 %attr(755,root,root) %{_bindir}/*
 %{_datadir}/gEDA/system-gschlasrc
