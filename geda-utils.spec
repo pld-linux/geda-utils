@@ -1,12 +1,12 @@
 Summary:	Utilites for gEDA project
 Summary(pl):	Narzêdzia dla projektu gEDA
 Name:		geda-utils
-Version:	20010304
+Version:	20030901
 Release:	1
 License:	GPL
 Group:		Applications
-Source0:	ftp://ftp.geda.seul.org/pub/geda/devel/utils-%{version}.tar.gz
-# Source0-md5:	f9e70912726be8403ee24d8b6973b0b5
+Source0:	ftp://ftp.geda.seul.org/pub/geda/devel/%{version}/%{name}-%{version}.tar.gz
+# Source0-md5:	f0b1a682c6796b418c48e3a843ab0fb2
 URL:		http://www.geda.seul.org/
 BuildRequires:	libgeda-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -18,7 +18,7 @@ Several utilities for the gEDA project.
 Narzêdzia u¿ytkowe dla projektu gEDA.
 
 %prep
-%setup  -q -n utils
+%setup  -q 
 
 %build
 %configure
