@@ -1,5 +1,5 @@
-Summary:	Netlister for the gEDA project.
-Summary(pl):	Lista po³±czeñ dla projektu gEDA.
+Summary:	Utilites for gEDA project.
+Summary(pl):	Narzêdzia dla projektu gEDA.
 Name:		geda-utils
 Version:	20010304
 Release:	1
