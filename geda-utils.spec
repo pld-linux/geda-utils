@@ -11,6 +11,7 @@ URL:		http://www.geda.seul.org/
 BuildRequires:	glib2-devel >= 2.2.0
 BuildRequires:	libgeda-devel >= %{version}
 BuildRequires:	pkgconfig
+BuildRequires:	rpm-pythonprov
 Requires:	libgeda >= %{version}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
