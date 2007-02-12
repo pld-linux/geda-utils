@@ -1,5 +1,5 @@
 Summary:	Utilites for gEDA project
-Summary(pl):	Narzêdzia dla projektu gEDA
+Summary(pl.UTF-8):   NarzÄ™dzia dla projektu gEDA
 Name:		geda-utils
 Version:	20061020
 Release:	0.1
@@ -18,8 +18,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Several utilities for the gEDA project.
 
-%description -l pl
-Narzêdzia u¿ytkowe dla projektu gEDA.
+%description -l pl.UTF-8
+NarzÄ™dzia uÅ¼ytkowe dla projektu gEDA.
 
 %prep
 %setup -q
