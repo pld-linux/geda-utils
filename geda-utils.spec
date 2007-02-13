@@ -1,5 +1,5 @@
 Summary:	Utilites for gEDA project
-Summary(pl.UTF-8):   Narzędzia dla projektu gEDA
+Summary(pl.UTF-8):	Narzędzia dla projektu gEDA
 Name:		geda-utils
 Version:	20061020
 Release:	0.1
