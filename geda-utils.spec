@@ -1,4 +1,3 @@
-# 1Revision: 1.22 $, $Date: 2008-12-21 15:27:24 $
 Summary:	Utilites for gEDA project
 Summary(pl.UTF-8):	Narzędzia dla projektu gEDA
 Name:		geda-utils
